@@ -1,0 +1,18 @@
+
+   -----  Execution Process ----- 
+
+
+The web application is executed by running the main.py file in a Python environment. The application runs on the Flask framework, which is a Python-based micro web framework. The main.py file initializes the Flask application and defines the various routes and their corresponding functions. Once the application is started, users can access it through a web browser by entering the URL provided by the Flask application. The web application is hosted on a server and can be accessed by multiple users simultaneously.
+
+
+   ----- Requirements ------
+
+
+The web application requires the following software and libraries to be installed:
+Python 3.x
+Flask web framework
+Pandas library
+OpenPyXL library
+
+
+The application also requires access to a database file in XLSX format, where user data and course information is stored.

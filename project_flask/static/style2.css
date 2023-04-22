@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.container {
+   margin: auto;
+   margin-top: 6rem;
+   padding: 5px;
+   width: 30rem;
+   height: 33rem;
+   background: linear-gradient(to top, white, rgba(255, 158, 13, 0.892));
+   position: relative;
+   cursor: pointer;
+   transform-style: preserve-3d;
+   transform-origin: center right;
+   transition: transform 1s;
+   box-shadow: -3px 3px 30px 10px #53535458;
+}
+
+.mt-5 {
+   font-size: 3.2rem;
+   font-family: 'Alkatra';
+   letter-spacing: 2px;
+   font-weight: 200;
+   text-align: center;
+   margin-bottom: 2rem;
+   background: -webkit-linear-gradient(#048ff9, #0d000f);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.mb-3 input {
+   font-size: 18px;
+   width: 20rem;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.input-container {
+   margin-top: 1rem;
+   margin-left: 5rem;
+   display: flex;
+   position: relative;
+   color: black;
+}
+
+.input-container input {
+   width: 15rem;
+   height: 2.5rem;
+   border-style: none;
+   border-radius: 0px 5px 5px 0px;
+   padding: 12px;
+
+}
+
+.input-container input:focus {
+   outline: none;
+}
+
+.icon-wrapper {
+   background: #d4d5df;
+   width: 3rem;
+   height: 2.5rem;
+   border-radius: 5px 0px 0px 5px;
+}
+
+.icon-wrapper i {
+   width: 1.5em;
+   height: 2.5rem;
+   font-size: 26px;
+   padding: 7px;
+   color: #535354;
+}
+
+#btn {
+   color: rgb(255, 253, 253);
+   background-color: #535354d4;
+   width: 18rem;
+   height: 2.5rem;
+   border-style: none;
+   border-radius: 20px;
+   font-family: 'Rubik';
+   font-size: 22px;
+   padding: 4px;
+   margin: 0 auto;
+   margin-top: 4rem;
+   display: block;
+}
+
+#btn:hover {
+   color: rgb(0, 0, 0);
+   background: none;
+   width: 18rem;
+   height: 2.5rem;
+   border-style: solid;
+   border-radius: 20px;
+   font-size: 18px;
+   padding: 4px;
+   margin: 0 auto;
+   margin-top: 4rem;
+   display: block;
+}
+
+.mt-3 {
+   padding: 10px;
+   text-align: center;
+   font-size: 18px;
+   font-family: poppins;
+}

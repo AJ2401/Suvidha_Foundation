@@ -1,0 +1,30 @@
+/* Step 7: Create styles.css */
+/* - Define custom CSS styles for the web application */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Home page styles */
+.overview {
+    max-width: 600px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Sign-in page styles */
+form {
+    max-width: 400px;
+}
+
+/* Dashboard page styles */
+.bi-bell {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+/* Additional custom styles can be added as needed */
